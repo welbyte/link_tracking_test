@@ -34,7 +34,6 @@ Create a migration for the `link_clicks` table with the following fields:
 - `id` (primary key)
 - `url` (string, the full URL of the clicked link)
 - `anchor_text` (string, the text content of the clicked link)
-- `user_id` (integer, nullable, reference to users table if user is logged in)
 - `referrer` (string, the page URL where the click originated)
 - `user_agent` (string, the user's browser information)
 - `ip_address` (string, the user's IP address)
